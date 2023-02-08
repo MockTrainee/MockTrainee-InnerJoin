@@ -1,0 +1,1 @@
+SELECT s.id, s.student_name FROM student s INNER JOIN class c ON c.class_title = s.class_title WHERE c.class_title = 'Physics' OR c.class_title = 'Math';
